@@ -1,3 +1,31 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.container {
+  margin: 40px;
+}
+
+.awnser {
+  background-color: #FFFFE4;
+  padding: 8px;
+  border-left: solid;
+  border-color: #DDDDDD;
+  border-left-width: 5px;
+  margin-bottom: 40px;
+}
+
+.question{
+  padding: 8px;
+  border-left: solid;
+  border-color: #DDDDDD;
+  border-left-width: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 2px;
+  background-color: #3A506B;
+}

@@ -1,11 +1,13 @@
-<%=params[:question]%>
+<div class="container">
+  <p class="question"><%=params[:question]%></p>
 
-<% if params[:question] == "I am going to work" %>
-  <p><%="Great"%></p>
-<% elsif params[:question].include?("?") %>
-  <p><%= "Silly question, get dressed and go to work!" %></p>
-<% else %>
-  <p><%= "I don't care, get dressed and go to work!" %></p>
-<% end %>
+  <% if params[:question] == "I am going to work" %>
+    <p class ="awnser"><%="Great"%></p>
+  <% elsif params[:question].include?("?") %>
+    <p class ="awnser"><%= "Silly question, get dressed and go to work!" %></p>
+  <% else %>
+    <p class ="awnser"><%= "I don't care, get dressed and go to work!" %></p>
+  <% end %>
 
-<%= link_to "New question", ask_path %>
+  <%= link_to "New question", ask_path %>
+</div>
